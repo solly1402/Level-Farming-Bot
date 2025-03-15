@@ -49,11 +49,11 @@ This bot sends random words/symbols to farm levels (e.g., with Mee6) in a Discor
    - Open terminal in the folder.
    - Run: `npm install discord.js-selfbot-v13 express`.
 3. **Configure Token**:
-   - Open `levelbot.js`.
+   - Open `index.js`.
    - Replace `'YOUR_DISCORD_TOKEN_HERE'` with your token, or use:
      - Windows: `set TOKEN=your_token_here`
      - Linux/Mac: `export TOKEN=your_token_here`
-4. **Run**: `node levelbot.js`.
+4. **Run**: `node index.js`.
 
 #### Hosting Setup (Render.com/Heroku/Replit)
 1. **Push to GitHub**: Create a repo, push code (no hardcoded token).
@@ -61,7 +61,7 @@ This bot sends random words/symbols to farm levels (e.g., with Mee6) in a Discor
    - **Render.com**:
      - Create a new Node.js app, link GitHub.
      - Add env variable: `TOKEN=your_token_here`.
-     - Set start command: `node levelbot.js`.
+     - Set start command: `node index.js`.
      - Deploy.
    - **Heroku**:
      - Create app, link GitHub.
